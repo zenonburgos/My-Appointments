@@ -8,7 +8,7 @@ use App\Specialty;
 use App\Appointment;
 use App\CancelledAppointment;
 
-use App\interfaces\ScheduleServiceInterface;
+use App\Interfaces\ScheduleServiceInterface;
 use App\Http\Requests\StoreAppointment;
 
 use Carbon\Carbon;

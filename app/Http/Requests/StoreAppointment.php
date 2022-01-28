@@ -2,8 +2,8 @@
 
 namespace App\Http\Requests;
 
-use App\interfaces\ScheduleServiceInterface;
 use Illuminate\Foundation\Http\FormRequest;
+use App\Interfaces\ScheduleServiceInterface;
 use Carbon\Carbon;
 
 class StoreAppointment extends FormRequest
